@@ -3,6 +3,14 @@ package MainController.Utilities;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+/*
+MainController.Utilities.HttpActions.getURL();
+MainController.Utilities.HttpActions.getHttpURLConnection();
+MainController.Utilities.HttpActions.getResponseCode();
+MainController.Utilities.HttpActions.getResponseMessage();
+MainController.Utilities.HttpActions.getResponseCodeStringFromURLString();
+*/
+
 public class HttpActions {
 
     public static URL getURL (String myPath) {
