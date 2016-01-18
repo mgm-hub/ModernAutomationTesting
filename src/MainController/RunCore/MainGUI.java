@@ -1,6 +1,7 @@
 package MainController.RunCore;
 
 
+import MainController.Utilities.Log;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -27,16 +28,12 @@ public class MainGUI extends Application{
             primaryStage.show();
         }
         catch (Exception e){
-            String myError = "Could Not Load GUI";
-            MainController.LogCore.Log.log(myError);
+            String myError = "Could Not Load GUI\n" +e ;
+            Log.log(myError);
         }
     }
 
     public static void main(String[] args) {
         launch(args);
     }
-
-
-
-
 }
