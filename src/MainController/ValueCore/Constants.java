@@ -1,0 +1,30 @@
+package MainController.ValueCore;
+
+
+/*
+MainController.ValueCore.BooleanConstants.
+*/
+
+public class Constants {
+
+
+    //Debug
+    public static Boolean IS_DEBUG = true;
+    public static Boolean IS_SHOWING_CONSOLE = true;
+
+
+    //GUI
+    public static String VIEW_CONTROLLER_FILE_NAME = "/MainController.fxml";
+    public static String VIEW_CONTROLLER_SCREEN_TITLE = "Modern";
+    public static int VIEW_WIDTH = 1280;
+    public static int VIEW_HEIGHT = 810;
+
+    //Browser List
+    public static final String[] BROWSER_LIST_OSX = {"FireFox","Chrome","Safari","MobileSafari","Android"};
+    public static final String[] BROWSER_LIST_WINDOWS = {"FireFox","Chrome","IExplore","Android","GridFireFox"};
+
+
+
+
+
+    }
