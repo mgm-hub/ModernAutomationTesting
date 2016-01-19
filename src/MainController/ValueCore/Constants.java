@@ -4,6 +4,7 @@ package MainController.ValueCore;
 /*
 MainController.ValueCore.Constants.STARTING_TEST
 MainController.ValueCore.Constants.STEP_4
+MainController.ValueCore.Constants.IS_DEBUG
 
 */
 
