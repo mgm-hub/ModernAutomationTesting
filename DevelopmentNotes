@@ -16,3 +16,8 @@
 
 1/18/2016
     Started Project
+
+    WebDriver Done
+
+    Run Class setup
+        MainController.CommandAPI.mainTestRunAction(WebDriver, CommandDataClass[]);

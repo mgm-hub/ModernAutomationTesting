@@ -1,5 +1,8 @@
 package MainController.Selenium.DriverCore;
 
+/*
+ MainController.Selenium.DriverCore
+*/
 
 import MainController.Utilities.Log;
 import org.openqa.selenium.WebDriver;
@@ -94,7 +97,8 @@ public class SeleniumDriver {
     private WebDriver getFireFoxWebDriver(String overRideURL) {
         FirefoxProfile profile = getMyFirefoxProfile ();
         if (overRideURL != null && overRideURL.length() > 4) {
-            System.out.print("\noverRideURL :: "+overRideURL);
+            String infoMessage = "overRideURL :: "+overRideURL;
+            MainController.Utilities.Log.log(infoMessage);
             String URI_AUTH = "network.automatic-ntlm-auth.trusted-uris";
             profile.setPreference(URI_AUTH, overRideURL);
         }

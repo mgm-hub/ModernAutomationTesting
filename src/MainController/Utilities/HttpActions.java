@@ -64,7 +64,9 @@ public class HttpActions {
         String myResponseCodeString = "";
         if (myURLString != null && myURLString.length() > 0) {
             URL myURL = getURL(myURLString);
-            System.out.print("\nmyURL ::" + myURL);
+            String dataMessage = "\nmyURL ::" + myURL;
+            Log.log(dataMessage);
+
             HttpURLConnection myHttpURLConnection =getHttpURLConnection(myURL);
             if (myHttpURLConnection != null) {
                 int myResponseCode = getResponseCode(myHttpURLConnection);

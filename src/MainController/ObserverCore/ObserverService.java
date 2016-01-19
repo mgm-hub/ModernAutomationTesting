@@ -13,10 +13,25 @@ public class ObserverService {
 
     public static Boolean hasPaused = false;
     public static Boolean isRunning = false;
-    private static Boolean hasPressedTerminate = false;
+
+    private static Boolean testHasBeenTerminated = false;
+
+    //================================================================================
+    // Constructor
+    //================================================================================
 
     public ObserverService() {
 
 
     }
+
+    //================================================================================
+    // Getters and Setters
+    //================================================================================
+
+    public boolean hasTestBeenTerminated () {
+        return testHasBeenTerminated;
+    }
+
+
 }
